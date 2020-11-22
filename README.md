@@ -8,12 +8,12 @@ Social Distancing is a must in Covid 19 pandemic as Covid 19 is a deadly virus t
 
 Main Functionalities
 	
-	1.This app is free of cost and easily feasible as it requires only internet connection for its use.
+	 1.This app is free of cost and easily feasible as it requires only internet connection for its use.
 	
-	2.Checks the number of people.
+	 2.Checks the number of people.
 	
-        3.Checks the capacity input by the user.
+         3.Checks the capacity input by the user.
 	
-	4.If the number of people exceed the capacity, the app will send an alert.
+	 4.If the number of people exceed the capacity, the app will send an alert.
 	
-	5.Hence it will automatically control the Covid 19 spread and thus will save the health and lives of people.
+	 5.Hence it will automatically control the Covid 19 spread and thus will save the health and lives of people.
