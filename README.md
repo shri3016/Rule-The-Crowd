@@ -7,6 +7,7 @@ Rule The Crowd is a web app that is aimed at alerting every time the capacity of
 Social Distancing is a must in Covid 19 pandemic as Covid 19 is a deadly virus that has taken a lot of lives around the world. But people don’t follow social distancing norms. This app tracks the limit of people in an area and alerts if it exceeds a limit so that no other person can enter inside.
 
 Main Functionalities
+	
 	1.This app is free of cost and easily feasible as it requires only internet connection for its use.
 	
 	2.Checks the number of people.
