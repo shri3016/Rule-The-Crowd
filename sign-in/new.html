@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title> Crowd control</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">Add</h4>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+    
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>Your Feed</h1>
+    </div>
+  </section>
+
+  
+        
+    </head>
+        
+       
+
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#">Crowd Control</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+     
+      
+      
+    </ul>
+   
+  </div>
+</nav>
+
+<main role="main" class="container">
+  <script LANGUAGE="JavaScript" type="text/javascript">
+    function display() {
+      DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
+      message = "<ul><li><b>NAME: </b>" + document.form1.yourname.value;
+      message += "<li><b>ADDRESS: </b>" + document.form1.address.value;
+      message += "<li><b>PHONE: </b>" + document.form1.phone.value + "</ul>";
+      DispWin.document.write(message);
+    }
+    </script>
+ 
+
+</main><!-- /.container -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Increment count when button is clicked</title>
+  </head>
+
+  <body>
+    <input type="button" value="Count" id="countButton" />
+
+    <p>The button was pressed <span id="displayCount">0</span> times.</p>
+
+    <script type="text/javascript">
+      var count = 0;
+      var button = document.getElementById("countButton");
+      var display = document.getElementById("displayCount");
+
+      button.onclick = function(){
+        count++;
+        display.innerHTML = count;
+      }
+    </script>
+  
+      </head>
+      <body>
+      <h1>ENTER DATA</h1>
+     
+      <form name="form1">
+      <p><b>NAME:</b> <input TYPE="TEXT" SIZE="20" NAME="yourname">
+      </p>
+      <p><b>DEVICE:</b> <input TYPE="TEXT" SIZE="30" ADDRESS="address">
+      </p>
+      <p><b>LIMIT: </b> <input TYPE="TEXT" SIZE="15" LIMIT="phone">
+      </p>
+      <p><input TYPE="BUTTON" VALUE="Display" onClick="display();"></p>
+      </form>
+      </body>
+  </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>
